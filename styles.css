@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	
+}
+
+.nav-container {
+	height: 60px;
+	background: black;
+}
+
+.nav {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.logo {
+	vertical-align: top;
+	display: inline-block;
+	background: #cb0000;
+	height: 70px;
+	width: 70px;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+}
+
+.grey-links {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: arial;
+}
+
+.grey-links li {
+	display: inline;
+	color: grey;
+	border-right: 1px solid grey;
+	padding: 0px 8px 0px 5px
+}
+
+.grey-links li:last-child {
+	border-right: none;
+}
+
+.main-container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.top-stories {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	padding-top: 15px;
+	padding-right: 2%;
+}
+
+.main-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 72%;
+}
+
+.top-stories img {
+	width: 100%;
+	height: auto;
+}
+
+.top-stories-list {
+	list-style: none;
+	padding-left: 0;
+	font-weight: bold;
+}
+
+.top-stories-list li {
+	list-style: none;
+	padding-left: 0;
+	border-bottom: 1px solid grey;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.main-item h1 {
+	font-size: 48px;
+	text-align: center;
+}
+
+.big-headline-content {
+	background-image: url('images/melania.jpg');
+	position: relative;
+	height: 430px;
+}
+
+.big-headline {
+	position: absolute;
+	bottom: 0;
+
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 0 10px;
+	width: 100%;
+}
+
+.big-headline h3 {
+	font-size: 28px;
+}
